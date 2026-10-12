@@ -1,0 +1,18 @@
+Oct  1 01:15:02 nx-17 sshd[1204]: Server listening on 0.0.0.0 port 22.
+Oct  1 01:15:02 nx-17 sshd[1204]: Server listening on :: port 22.
+Oct  1 01:17:44 nx-17 CRON[1309]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  1 01:17:44 nx-17 CRON[1309]: pam_unix(cron:session): session closed for user root
+Oct  1 02:17:44 nx-17 CRON[1450]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct  1 02:17:44 nx-17 CRON[1450]: pam_unix(cron:session): session closed for user root
+Oct  1 02:52:11 nx-17 sshd[1822]: Accepted publickey for kai from 10.5.21.99 port 51922 ssh2: RSA SHA256:abc123def456ghi789...
+Oct  1 02:52:11 nx-17 sshd[1822]: pam_unix(sshd:session): session opened for user kai(uid=1001) by (uid=0)
+Oct  1 02:52:14 nx-17 systemd-logind[789]: New session 4 of user kai.
+Oct  1 02:55:01 nx-17 sudo:     kai : TTY=pts/0 ; PWD=/home/kai ; USER=root ; COMMAND=/bin/systemctl status nexus-relay
+Oct  1 02:55:01 nx-17 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by kai(uid=1001)
+Oct  1 02:55:05 nx-17 sudo: pam_unix(sudo:session): session closed for user root
+Oct  1 03:05:41 nx-17 sshd[1822]: pam_unix(sshd:session): session closed for user kai
+Oct  1 03:05:41 nx-17 systemd-logind[789]: Session 4 logged out. Waiting for processes to exit.
+Oct  1 03:05:41 nx-17 systemd-logind[789]: Removed session 4.
+Oct  1 03:10:02 nx-17 su[1890]: Successful su for svc-relay by root
+Oct  1 03:10:02 nx-17 su[1890]: + ??? root:svc-relay
+Oct  1 03:10:02 nx-17 su[1890]: pam_unix(su:session): session opened for user svc-relay(uid=998) by (uid=0)

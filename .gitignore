@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials — never commit these
+*.env
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+*token*
+*secret*
+*.cookie
+*.cookies
+
+# Large / reproducible challenge artifacts (document in writeups instead)
+*.img
+*.img.xz
+*.raw
+*.qcow2
+
+# Temporary solver scratch
+# (note: committed forensic evidence files keep their real *.log names on purpose)
+*.tmp
+.organizer/
+automation_logs/

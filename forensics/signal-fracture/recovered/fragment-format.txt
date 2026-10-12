@@ -1,0 +1,15 @@
+Nexus Transfer Manager - Fragment Record v3
+
+Record byte order: network / big-endian
+
+Offset  Size  Field
+0x00    4     magic = NXFR
+0x04    4     session_id (uint32)
+0x08    2     sequence (uint16, zero based)
+0x0A    2     total_fragments (uint16)
+0x0C    4     payload_length (uint32)
+0x10    4     payload_crc32 (uint32)
+0x14    ...   payload bytes
+
+The scheduler catalog stores SHA-256 over PAYLOAD BYTES ONLY (not the NXFR header).
+Repeated records are allowed after an uplink retry. A retry is authoritative only if its payload hash matches the scheduler catalog.

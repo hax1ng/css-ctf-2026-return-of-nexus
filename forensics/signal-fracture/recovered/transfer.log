@@ -1,0 +1,10 @@
+2101-03-17T02:18:39Z relay17 transfer_mgr[418]: emergency priority asserted
+2101-03-17T02:18:41Z relay17 transfer_mgr[418]: object=emergency_burst_17 session=6E2C17A9 fragments=8 queued
+2101-03-17T02:18:42Z relay17 scheduler[233]: fragment catalog committed for session=6E2C17A9
+2101-03-17T02:18:44Z relay17 spoold[271]: raw-ring write complete; logical spool index pending cleanup
+2101-03-17T02:18:46Z relay17 uplinkd[502]: session=6E2C17A9 retry requested seq=6
+2101-03-17T02:18:47Z relay17 uplinkd[502]: session=6E2C17A9 retry acknowledged seq=6
+2101-03-17T02:18:49Z relay17 spoold[271]: purge acknowledged entries; raw ring not zeroed
+2101-03-17T02:18:51Z relay17 kernel: nexus fabric loss detected
+2101-03-17T02:18:52Z relay17 transfer_mgr[418]: scheduler state saved; uplink incomplete
+2101-03-17T02:19:01Z relay17 systemd[1]: emergency shutdown initiated

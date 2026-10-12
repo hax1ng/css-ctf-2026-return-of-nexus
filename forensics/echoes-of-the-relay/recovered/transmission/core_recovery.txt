@@ -1,0 +1,3 @@
+The Nexus remembers what the filesystem forgets.
+
+CSSCTF{d3l3t3d_d03snt_m34n_g0n3}

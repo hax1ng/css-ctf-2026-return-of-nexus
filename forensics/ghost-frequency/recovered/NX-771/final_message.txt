@@ -1,0 +1,7 @@
+NEXUS EMERGENCY TRANSMISSION
+KBR-17 // SESSION NX-771
+
+The Severance did not erase every transmission.
+Some signals survived only because the relay kept redundant fragments.
+
+CSSCTF{th3_gh0st_fr3qu3ncy_w4s_n3v3r_s1l3nt}

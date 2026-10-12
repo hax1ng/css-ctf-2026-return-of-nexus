@@ -1,0 +1,6 @@
+KBR-17 EMERGENCY BURST // FINAL RECOVERY
+Origin: Kuiper Belt Relay 17
+Event: The Severance
+
+The relay did not fail silently. Its final burst survived as fragments across the spool ring and uplink.
+Authorization token: CSSCTF{fragment_t3ll_th3_st0ry}

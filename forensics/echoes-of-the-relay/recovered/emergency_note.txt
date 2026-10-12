@@ -1,0 +1,16 @@
+NX-17 PERSONAL NOTE
+
+They are wiping the relay.
+
+I couldn't leave the transmission as a normal file.
+
+I attached the recovery package to the diagnostic image before
+the node went offline.
+
+If someone finds this:
+
+    archive password = severance2101
+
+Look beyond what the image viewer shows you.
+
+-NX17

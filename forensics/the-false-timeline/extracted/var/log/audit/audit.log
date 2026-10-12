@@ -1,0 +1,9 @@
+type=SYSCALL msg=audit(1696092000.000:10): arch=c000003e syscall=59 success=yes exit=0 a0=555b7f a1=555b90 a2=555ba0 a3=8 items=2 ppid=1 pid=1401 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="systemd" exe="/usr/lib/systemd/systemd"
+type=SYSCALL msg=audit(4157542380.123:45): arch=c000003e syscall=59 success=yes exit=0 a0=55dc01 a1=55dc20 a2=55dc30 a3=8 items=2 ppid=1822 pid=1901 auid=1001 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts0 ses=4 comm="systemctl" exe="/usr/bin/systemctl" key=(null)
+type=EXECVE msg=audit(4157542380.123:45): argc=3 a0="systemctl" a1="status" a2="nexus-relay"
+type=SYSCALL msg=audit(4157543482.001:88): arch=c000003e syscall=59 success=yes exit=0 a0=7f8b90 a1=7f8bb0 a2=7f8bc0 a3=8 items=2 ppid=1 pid=2105 auid=4294967295 uid=998 gid=998 euid=998 suid=998 fsuid=998 egid=998 sgid=998 fsgid=998 tty=(none) ses=4294967295 comm="sh" exe="/usr/bin/dash" key=(null)
+type=EXECVE msg=audit(4157543482.001:88): argc=1 a0="sh"
+type=SYSCALL msg=audit(4157543568.045:92): arch=c000003e syscall=59 success=yes exit=0 a0=7ffcd0 a1=7ffce0 a2=7ffcf0 a3=8 items=2 ppid=2105 pid=2240 auid=4294967295 uid=998 gid=998 euid=998 suid=998 fsuid=998 egid=998 sgid=998 fsgid=998 tty=(none) ses=4294967295 comm="nx-export" exe="/opt/nexus/bin/nx-export" key="nexus_export"
+type=EXECVE msg=audit(4157543568.045:92): argc=2 a0="/opt/nexus/bin/nx-export" a1="--emergency"
+type=SYSCALL msg=audit(4157543712.500:99): arch=c000003e syscall=258 success=yes exit=0 a0=ffffffffffffff9c a1=7fffb0 a2=7fff0 a3=100 items=1 ppid=2105 pid=2270 auid=4294967295 uid=998 gid=998 euid=998 suid=998 fsuid=998 egid=998 sgid=998 fsgid=998 tty=(none) ses=4294967295 comm="touch" exe="/usr/bin/touch" key=(null)
+type=PROC_PROCTITLE msg=audit(4157543712.500:99): proctitle=746f756368002d72002f6574632f6d616368696e652d6964002f7661722f63616368652f6e657875732f2e656b65792d6361636865

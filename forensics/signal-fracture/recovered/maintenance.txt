@@ -1,0 +1,4 @@
+Maintenance note 17-B
+The transfer manager keeps authoritative ordering and hashes in the scheduler catalog.
+The raw spool is a ring buffer: purging removes its index but does not immediately zero old records.
+Passive uplink taps may contain multiple copies of a retried fragment.
